@@ -23,9 +23,9 @@
             </div>
 
             <picture id="mainLogo">
-                <source media="(max-width: 1440px)" srcset="{{url('/images/TheBox_updated_full_black.png')}}">
-                <source media="(max-width: 2539px)" srcset="{{url('/images/name_icon_up.png')}}">
-                <img src="{{url('/images/TheBox_updated_full_black.png')}}" alt="Logo the box verhuizingen and description of activities">
+                <source media="(max-width: 1440px)" srcset="{{url('../../public/images/TheBox_updated_full_black.png')}}">
+                <source media="(max-width: 2539px)" srcset="{{url('../../public/images/name_icon_up.png')}}">
+                <img src="{{url('../../public/images/TheBox_updated_full_black.png')}}" alt="Logo the box verhuizingen and description of activities">
             </picture>
         </main>
 
@@ -36,7 +36,7 @@
             </p>
 
             <div id="imageAbout">
-                <img src="{{url('/images/home_done.webp')}}" alt="Utah Dierckx, founder of The Box Verhuizingen">
+                <img src="{{url('../../public/images/home_done.webp')}}" alt="Utah Dierckx, founder of The Box Verhuizingen">
             </div>
             
             <div id="textAbout">

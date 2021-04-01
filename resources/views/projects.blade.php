@@ -12,7 +12,7 @@
             <p class="projectText" id="project1P">
                 Deze klant heeft een nieuwe badkamer laten zetten en wij hebben de resten van de oude afgevoerd. Deze resten bestonden uit kasten, een plastic badkuip, lavabo, droogkast, wasmachine en dergelijke. Weer een tevreden klant!
             </p>
-            <img src="{{url('/images/project1_done.webp')}}" id="project1Img" alt="image project 1 The Box Verhuizingen">
+            <img src="{{url('../../public/images/project1_done.webp')}}" id="project1Img" alt="image project 1 The Box Verhuizingen">
         </div>
 
         <div class="project" id="project2">
@@ -23,7 +23,7 @@
             <p class="projectText" id="project2P">
                 Bij het zetten van een nieuwbouwwoning komt heel wat afval kijken. Voor het afvoeren van cement, steenpuin en dergelijk bouwafval kan u steeds bij ons terecht.
             </p>
-            <img src="{{url('/images/project2_done.webp')}}" id="project2Img" alt="image project 2 The Box Verhuizingen">
+            <img src="{{url('../../public/images/project2_done.webp')}}" id="project2Img" alt="image project 2 The Box Verhuizingen">
         </div>
 
         <div class="project" id="project3">
@@ -34,7 +34,7 @@
             <p class="projectText" id="project3P">
                 Dit was de eerste volledige badkamer die we hebben afgevoerd naar het containerpark. De eigenaar wou deze vervuilde spullen niet in zijn auto steken dus kwamen wij langs met de aanhangwagen.
             </p>
-            <img src="{{url('/images/project3_done.webp')}}" id="project3Img" alt="image project 3 The Box Verhuizingen">
+            <img src="{{url('../../public/images/project3_done.webp')}}" id="project3Img" alt="image project 3 The Box Verhuizingen">
         </div>
     </section>
 
