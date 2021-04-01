@@ -25,7 +25,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../public/css/style.css">
 </head>
 <body>
     <div class="container">
@@ -42,7 +42,7 @@
                     <li class="nav__list__item">Home</li>
                 </a>
                 <a href="projects" class="{{ Request::path() === 'projects' ? 'active' : '' }}">
-                    <li class="nav__list__item" class="{{ Request::is('projects') ? 'active' : '' }}">Projecten</li>
+                    <li class="nav__list__item" class="{{ Request::is('projects') ? 'active' : '' }}">ProjectenTEST</li>
                 </a>
                 <a href="contact" id="buttonNav">
                     Contact
