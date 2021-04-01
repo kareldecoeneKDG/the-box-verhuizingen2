@@ -9,7 +9,7 @@
     <section class="welcome">
         <h1>Contact</h1>
         <p>
-            Voor vragen groot of klein bent u op deze pagina aan het juiste adres. Vraagt u zich af of wij een bepaald soort afval afvoeren, of we tot bij u thuis komen voor een verhuis? Twijfel dan niet om onderstaand contactformulier in te vullen. Na het invullen nemen wij zo snel mogelijk contact met u op.
+            Voor vragen bent u op deze pagina aan het juiste adres. Vraagt u zich af of wij een bepaald soort afval afvoeren, of we tot bij u thuis komen voor een verhuis? Twijfel dan niet om onderstaand contactformulier in te vullen. Na het invullen nemen wij zo snel mogelijk contact met u op.
             Indien u een prijsofferte wenst voor uw afvoerklus, gelieve dan hieronder in het keuzemenu te kiezen voor offerte.
         </p>
     </section>
