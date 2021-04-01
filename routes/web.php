@@ -32,3 +32,7 @@ Route::get('contact', function () {
 Route::get('offerte', function () {
     return view('offerte');
 });
+
+Route::get('contactAction', function () {
+    return view('contactAction');
+});
