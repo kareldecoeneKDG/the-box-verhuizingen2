@@ -39,7 +39,7 @@
         </div>
 
         <div class="form">
-            <form method="POST" action="actions/contactAction.php">
+            <form method="POST" action="contactAction">
                 <div class="inputs">
                     <input type="text" name="name" placeholder="Naam" <?php if (isset($_SESSION['nameContact'])) : ?> value="<?php echo $_SESSION['nameContact'] ?>" <?php endif; ?>>
                     <input type="text" name="email" placeholder="Email" <?php if (isset($_SESSION['emailContact'])) : ?> value="<?php echo $_SESSION['emailContact'] ?>" <?php endif; ?>>
