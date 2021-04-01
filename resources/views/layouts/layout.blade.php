@@ -33,7 +33,7 @@
             <div id="logo">
                 <a href="home">
                     <!-- <img src="images-icons/images/icon_white.png" class="nav__image" alt="icon TheBox as link to homepage"> -->
-                    <img src="{{url('/images/icon_white.png')}}" class="nav__image" alt="icon TheBox as link to homepage">
+                    <img src="{{url('../../public/images/icon_white.png')}}" class="nav__image" alt="icon TheBox as link to homepage">
                 </a>
             </div>
         
@@ -42,7 +42,7 @@
                     <li class="nav__list__item">Home</li>
                 </a>
                 <a href="projects" class="{{ Request::path() === 'projects' ? 'active' : '' }}">
-                    <li class="nav__list__item" class="{{ Request::is('projects') ? 'active' : '' }}">ProjectenTEST</li>
+                    <li class="nav__list__item" class="{{ Request::is('projects') ? 'active' : '' }}">Projecten</li>
                 </a>
                 <a href="contact" id="buttonNav">
                     Contact
@@ -93,7 +93,7 @@
             </div>
 
             <div id="imageDivFooter">
-                <img src="{{url('/images/full_white_1000.png')}}" class="footer__image" alt="white image of logo The Box Verhuizingen">
+                <img src="{{url('../../public/images/full_white_1000.png')}}" class="footer__image" alt="white image of logo The Box Verhuizingen">
             </div>
         </footer>
     </div>
