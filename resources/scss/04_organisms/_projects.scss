@@ -1,0 +1,337 @@
+.projects {
+    h1 {
+        font-size: $h1-font-size-mobile;
+        margin: $h1-margin-mobile;
+    }
+
+    .project {
+        h2 {
+            margin-top: 0;
+        }
+    }
+}
+
+#h2Contact {
+    margin-top: 0;
+}
+
+.date {
+    color: $dark-grey;
+    margin: $date-margin-mobile;
+}
+
+.projectText {
+    margin-bottom: 0;
+}
+
+#pContact {
+    margin: $p-margin-mobile;
+}
+
+#h2Oproep {
+    margin: $h2-margin-mobile;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .projects {
+        h1 {
+            margin-left: $margin-left;
+            margin-right: $margin-right;
+        }
+
+        div {
+            text-align: center;
+            h2 {
+                text-align: left;
+                margin-left: $margin-left;
+                margin-right: $margin-right;
+            }
+
+            p {
+                text-align: left;
+                margin-left: $margin-left;
+                margin-right: $margin-right;
+            }
+
+            img {
+                width: 100%;
+                padding-left: $margin-left;
+                padding-right: $margin-right;
+            }
+        }
+    }
+
+    #contactProjects {
+        h2 {
+            margin-left: $margin-left;
+            margin-right: $margin-right;
+        }
+
+        p {
+            margin-left: $margin-left;
+            margin-right: $margin-right;
+        }
+
+        a {
+            margin-left: $margin-left;
+            margin-right: $margin-right;
+        }
+    }
+
+    .contact {
+        #h2Oproep {
+            margin-left: $margin-left;
+            margin-right: $margin-right;
+        }
+
+        p {
+            margin-left: $margin-left;
+            margin-right: $margin-right;
+        }
+    }
+}
+
+/* Desktop
+@media screen and (min-width: 1024px) {
+    .projects {
+        h1 {
+            margin-left: $margin-left;
+            margin-right: $margin-right;
+        }
+    }
+} */
+
+/* Tablet */
+@media screen and (min-width: 1024px) {
+    .projects {
+        div {
+            text-align: center;
+            h2 {
+                text-align: left;
+            }
+
+            p {
+                text-align: left;
+            }
+
+            img {
+                width: 55%;
+                padding-left: $margin-left;
+                padding-right: $margin-right;
+                margin: 25px auto 25px auto;
+            }
+        }
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
+    .projects {
+        h1 {
+            font-size: $h1-font-size;
+            margin: $h1-margin;
+            margin-top: 100px;
+        }
+
+        #project1 {
+            display: grid;
+            grid-template-columns: 60% auto;
+            grid-template-rows: 90px 50px auto;
+            grid-template-areas: "title img"
+                                 "date img"
+                                 "p img";
+
+            #project1Title {
+                grid-area: title;
+            }
+
+            #project1Date {
+                grid-area: date;
+            }
+
+            #project1P {
+                grid-area: p;
+            }
+
+            #project1Img {
+                grid-area: img;
+                width: 100%;
+                padding-right: 192px;
+                padding-bottom: 0;
+                margin-bottom: 100px;
+            }
+
+            h2 {
+                font-size: $h2-font-size;
+                margin: $h2-margin;
+                margin-top: 40px;
+                margin-right: 40px;
+            }
+
+            p {
+                font-size: $p-font-size;
+                margin: $p-margin;
+                margin-right: 40px;
+            }
+        }
+
+        #project2 {
+            background-color: #EEE;
+            display: grid;
+            grid-template-columns: auto 60%;
+            grid-template-rows: 150px 50px auto;
+            grid-template-areas: "img title"
+                                 "img date"
+                                 "img p";
+
+            #project2Title {
+                grid-area: title;
+            }
+
+            #project2Date {
+                grid-area: date;
+            }
+
+            #project2P {
+                grid-area: p;
+            }
+
+            #project2Img {
+                grid-area: img;
+                width: 100%;
+                padding-left: 192px;
+                margin-top: 100px;
+                padding-top: 0;
+                margin-bottom: 100px;
+                padding-bottom: 0;
+            }
+
+            h2 {
+                font-size: $h2-font-size;
+                margin: $h2-margin;
+                margin-left: 40px;
+            }
+
+            p {
+                font-size: $p-font-size;
+                margin: $p-margin;
+                margin-left: 40px;
+            }
+        }
+
+        #project3 {
+            display: grid;
+            grid-template-columns: 60% auto;
+            grid-template-rows: 200px 50px auto;
+            grid-template-areas: "title img"
+                                 "date img"
+                                 "p img";
+
+            #project3Title {
+                grid-area: title;
+            }
+
+            #project3Date {
+                grid-area: date;
+            }
+
+            #project3P {
+                grid-area: p;
+            }
+
+            #project3Img {
+                grid-area: img;
+                width: 100%;
+                padding-right: 192px;
+                margin-top: 100px;
+                padding-top: 0;
+                padding-bottom: 0;
+                margin-bottom: 100px;
+            }
+
+            h2 {
+                font-size: $h2-font-size;
+                margin: $h2-margin;
+                margin-top: 100px;
+                margin-right: 40px;
+            }
+
+            p {
+                font-size: $p-font-size;
+                margin: $p-margin;
+                margin-right: 40px;
+            }
+        }
+    }
+
+    #contactProjects {
+        h2 {
+            margin-left: 192px;
+        }
+
+        .button {
+            margin-left: 192px;
+        }
+    }
+
+    .contact {
+        h2 {
+            font-size: $h2-font-size;
+            margin: $h2-margin;
+        }
+
+        #h2Contact {
+            margin-top: 0;
+            padding-top: 100px;
+        }
+
+        #pContact {
+            font-size: $p-font-size;
+            margin: $p-margin;
+            width: 35%;
+        }
+
+        #h2Oproep {
+            margin: $h2-margin;
+        }
+
+        a {
+            margin: $button-margin;
+        }
+
+        .button {
+            margin-bottom: 100px;
+        }
+
+        p {
+            margin: $p-margin;
+        }
+    }
+
+    #contactProjects {
+        background-color: #EEE;
+        padding-bottom: 100px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1920px) {
+    .projects {
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact {
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contactProjects {
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

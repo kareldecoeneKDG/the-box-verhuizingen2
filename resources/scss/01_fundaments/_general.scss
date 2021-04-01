@@ -1,0 +1,52 @@
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: $red;
+    margin: $button-margin-mobile;
+    padding: $buttonValue-padding;
+    font-size: $button-font-size-mobile;
+    letter-spacing: $kerning;
+    border-radius: $border-radius;
+    border: none;
+}
+
+.button:hover {
+    color: $red;
+    background-color: white;
+    transition: 0.5s;
+}
+
+h1 {
+    color: $red;
+    margin: $h1-margin-mobile;
+    font-size: $h1-font-size-mobile;
+    font-weight: $title-font-weight;
+    letter-spacing: $kerning;
+}
+
+h2 {
+    margin: $h2-margin-mobile;
+    font-size: $h2-font-size-mobile;
+    font-weight: $title-font-weight;
+    letter-spacing: $kerning;
+}
+
+p {
+    margin: $p-margin-mobile;
+    font-size: $p-font-size-mobile;
+    line-height: $p-font-size-mobile * $line-height-factor;
+    letter-spacing: $kerning;
+    margin-bottom: 30px;
+}
+
+img {
+    padding: $img-margin-mobile;
+    width: 100%;
+}
+
+h3 {
+    margin: $h3-margin-mobile;
+    font-size: $h3-font-size-mobile;
+    font-weight: $title-font-weight;
+    letter-spacing: $kerning;
+}
