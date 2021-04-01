@@ -33,6 +33,6 @@ Route::get('offerte', function () {
     return view('offerte');
 });
 
-Route::get('contactAction', function () {
+Route::post('contactAction', function () {
     return view('contactAction');
 });
