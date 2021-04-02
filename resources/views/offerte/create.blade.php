@@ -17,25 +17,15 @@ session_start();
             <strong> {{ session()->get('message') }} </strong>
         </p>
     @endif
+
+    <p>
+        <strong>
+            @foreach ($errors->all() as $error)
+            {{ $error }}<br />
+            @endforeach
+        </strong>
+    </p>
 </section>
-
-<?php if (isset($_SESSION['offerteMailSend'])) : ?>
-    <p class="message">
-        <b><?php echo $_SESSION['offerteMailSend']; ?></b>
-    </p>
-<?php endif; ?>
-
-<?php if (isset($_SESSION['offerteEmptyFields'])) : ?>
-    <p class="message">
-        <b><?php echo $_SESSION['offerteEmptyFields']; ?></b>
-    </p>
-<?php endif; ?>
-
-<?php if (isset($_SESSION['offerteError'])) : ?>
-    <p class="message">
-        <b><?php echo $_SESSION['offerteError']; ?></b>
-    </p>
-<?php endif; ?>
 
 <div class="formArea">
     <div class="toggle">

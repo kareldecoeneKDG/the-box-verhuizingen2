@@ -57,10 +57,6 @@
             </div>
         </nav>
 
-        @foreach ($errors->all() as $error)
-            {{ $error }}<br/>
-        @endforeach
-
         @yield('content')
 
         <footer>

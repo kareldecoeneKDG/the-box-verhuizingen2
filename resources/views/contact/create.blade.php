@@ -18,25 +18,15 @@
                 <strong> {{ session()->get('message') }} </strong>
             </p>
         @endif
+
+        <p>
+            <strong>
+                @foreach ($errors->all() as $error)
+                    {{ $error }}<br/>
+                @endforeach
+            </strong>
+        </p>
     </section>
-
-    <?php if (isset($_SESSION['contactMailSend'])) : ?>
-        <p class="message">
-            <b><?php echo $_SESSION['contactMailSend']; ?></b>
-        </p>
-    <?php endif; ?>
-
-    <?php if (isset($_SESSION['contactEmptyFields'])) : ?>
-        <p class="message">
-            <b><?php echo $_SESSION['contactEmptyFields']; ?></b>
-        </p>
-    <?php endif; ?>
-
-    <?php if (isset($_SESSION['contactError'])) : ?>
-        <p class="message">
-            <b><?php echo $_SESSION['contactError']; ?></b>
-        </p>
-    <?php endif; ?>
 
     <div class="formArea">
         <div class="toggle">
