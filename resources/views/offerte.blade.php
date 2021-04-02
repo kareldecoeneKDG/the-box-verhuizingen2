@@ -1,3 +1,5 @@
+<!-- Does not get used right now. -->
+
 @extends('layouts.layout')
 
 @section('content')

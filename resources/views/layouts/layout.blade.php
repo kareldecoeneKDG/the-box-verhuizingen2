@@ -1,9 +1,5 @@
 <!doctype html>
 
-@foreach ($errors->all() as $error)
-    {{ $error }}<br/>
-@endforeach
-
 <html lang="nl">
 <head>
     <meta charset="utf-8">
@@ -60,6 +56,10 @@
                 <div class="line3"></div>
             </div>
         </nav>
+
+        @foreach ($errors->all() as $error)
+            {{ $error }}<br/>
+        @endforeach
 
         @yield('content')
 
