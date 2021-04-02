@@ -61,10 +61,6 @@
             </div>
         </nav>
 
-        <div class="alert alert-success" role="alert">
-            succes
-        </div>
-
         @yield('content')
 
         <footer>
