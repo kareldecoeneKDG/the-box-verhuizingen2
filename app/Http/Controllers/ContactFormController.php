@@ -25,6 +25,6 @@ class ContactFormController extends Controller
         
         Mail::to('thebox.info2020@gmail.com')->send(new ContactFormMail($data));
 
-        return redirect('contact');
+        return redirect('contact')->with('message', 'Bedankt voor uw bericht! We nemen zo snel mogelijk contact met u op.');
     }
 }
