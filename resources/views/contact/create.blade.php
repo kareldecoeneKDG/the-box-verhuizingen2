@@ -39,15 +39,16 @@
         </div>
 
         <div class="form">
-            <form method="POST" action="contactAction">
+            <form method="POST" action="/contact">
                 <div class="inputs">
-                    <input name="_token" type="hidden" value="{{ csrf_token() }}"/>
-                    <input type="text" name="name" placeholder="Naam" <?php if (isset($_SESSION['nameContact'])) : ?> value="<?php echo $_SESSION['nameContact'] ?>" <?php endif; ?>>
-                    <input type="text" name="email" placeholder="Email" <?php if (isset($_SESSION['emailContact'])) : ?> value="<?php echo $_SESSION['emailContact'] ?>" <?php endif; ?>>
-                    <input type="text" name="telephone" placeholder="Telefoon" <?php if (isset($_SESSION['telephoneContact'])) : ?> value="<?php echo $_SESSION['telephoneContact'] ?>" <?php endif; ?>>
-                    <input type="text" name="subject" placeholder="Onderwerp" <?php if (isset($_SESSION['subjectContact'])) : ?> value="<?php echo $_SESSION['subjectContact'] ?>" <?php endif; ?>>
-                    <textarea type="text" name="message" placeholder="Boodschap" <?php if (isset($_SESSION['messageContact'])) : ?> value="<?php echo $_SESSION['messageContact'] ?>" <?php endif; ?>></textarea>
+                    <input type="text" name="name" placeholder="Naam" value="{{ old('name') }}" class="form-control">
+                    <input type="text" name="email" placeholder="Email" value="{{ old('email') }}" class="form-control">
+                    <input type="text" name="telephone" placeholder="Telefoon" value="{{ old('telephone') }}" class="form-control">
+                    <input type="text" name="subject" placeholder="Onderwerp" value="{{ old('subject') }}" class="form-control">
+                    <textarea type="text" name="message" placeholder="Boodschap" value="{{ old('message') }}" class="form-control"></textarea>
                 </div>
+
+                @csrf
 
                 <input type="submit" name="submit" value="Verzend" class="button" id="submitContact">
             </form>

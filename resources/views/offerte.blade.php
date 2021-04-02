@@ -44,6 +44,7 @@ session_start();
 
                 <h3>Contactgegevens</h3>
 
+                <input name="_token" type="hidden" value="{{ csrf_token() }}"/>
                 <input type="text" name="name" placeholder="Naam">
                 <input type="text" name="email" placeholder="Email">
                 <input type="text" name="telephone" placeholder="Telefoon">

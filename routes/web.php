@@ -25,14 +25,13 @@ Route::get('projects', function () {
     return view('projects');
 });
 
-Route::get('contact', function () {
+/*Route::get('contact', function () {
     return view('contact');
-});
+}); */
 
 Route::get('offerte', function () {
     return view('offerte');
 });
 
-Route::post('contactAction', function () {
-    return view('contactAction');
-});
+Route::get('contact', 'App\Http\Controllers\ContactFormController@create');
+Route::post('contact', 'App\Http\Controllers\ContactFormController@store');

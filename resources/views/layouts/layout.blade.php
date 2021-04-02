@@ -1,13 +1,17 @@
 <!doctype html>
 
+@foreach ($errors->all() as $error)
+    {{ $error }}<br/>
+@endforeach
+
 <html lang="nl">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="The Box Verhuizingen is een verhuisbedrijf dat gespecialiseerd is in het afvoeren van puin. Maak een afspraak via onze website.">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../../public/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../../public/favicon.ico" type="image/x-icon">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
