@@ -100,6 +100,6 @@
         </footer>
     </div>
 
-    <script src="js/app.js"></script>
+    <script src="../../public/js/burger.js"></script>
 </body>
 </html>
