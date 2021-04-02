@@ -35,3 +35,6 @@ Route::get('offerte', function () {
 
 Route::get('contact', 'App\Http\Controllers\ContactFormController@create');
 Route::post('contact', 'App\Http\Controllers\ContactFormController@store');
+
+Route::get('offerte', 'App\Http\Controllers\OfferteFormController@create');
+Route::post('offerte', 'App\Http\Controllers\OfferteFormController@store');
