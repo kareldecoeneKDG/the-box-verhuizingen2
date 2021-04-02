@@ -33,6 +33,6 @@ class OfferteFormController extends Controller
 
         Mail::to('thebox.info2020@gmail.com')->send(new OfferteFormMail($data));
 
-        return redirect('offerte');
+        return redirect('offerte')->with('message', 'Bedankt voor uw bericht! We nemen zo snel mogelijk contact met u op.');
     }
 }

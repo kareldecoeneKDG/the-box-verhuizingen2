@@ -11,6 +11,12 @@ session_start();
     <p>
         Voor een prijsofferte voor uw afvoerklus kan u steeds onderstaand formulier invullen. Op basis van uw vracht en zijn omschrijving zullen wij een prijsschatting doen. Wij nemen dan zo snel mogelijk contact met u op om verder af te spreken wanneer en hoe we deze klus voor u zullen klaren.
     </p>
+
+    @if(session()->has('message'))
+        <p>
+            <strong> {{ session()->get('message') }} </strong>
+        </p>
+    @endif
 </section>
 
 <?php if (isset($_SESSION['offerteMailSend'])) : ?>
