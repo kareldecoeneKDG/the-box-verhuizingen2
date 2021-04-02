@@ -10,8 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="The Box Verhuizingen is een verhuisbedrijf dat gespecialiseerd is in het afvoeren van puin. Maak een afspraak via onze website.">
-    <link rel="shortcut icon" href="../../public/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../../public/favicon.ico" type="image/x-icon">
+    <!--<link rel="shortcut icon" href="../../public/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../../public/favicon.ico" type="image/x-icon"> -->$_COOKIE
+
+    <link rel="icon" href="{{ URL::asset('/favicon.ico') }}" type="image/x-icon"/>
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
