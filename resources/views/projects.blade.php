@@ -36,6 +36,28 @@
             </p>
             <img src="{{url('../../public/images/project3_done.webp')}}" id="project3Img" alt="image project 3 The Box Verhuizingen">
         </div>
+
+        <div class="project" id="project4">
+            <h2 id="project4Title">Afbraak van tuinmuur, afvoeren steenpuin</h2>
+            <p class="date" id="project4Date">
+                29 maart 2021, Deurne
+            </p>
+            <p class="projectText" id="project4P">
+                Deze klant benaderde ons via de website voor de afbraak en het afvoeren van een tuinmuur. Enkele dagen later begonnen wij aan deze klus en binnen een paar uur was deze kamer leeg!
+            </p>
+            <img src="{{url('../../public/images/project3_done.webp')}}" id="project4Img" alt="image project 3 The Box Verhuizingen">
+        </div>
+
+        <div class="project" id="project5">
+            <h2 id="project5Title">Afvoeren grasmat</h2>
+            <p class="date" id="project5Date">
+                13 april 2021, Wilrijk
+            </p>
+            <p class="projectText" id="project5P">
+                Naast steen, metaal en hout voeren wij ook tuinafval af. Heeft u in grote hoeveelheden groen-afval liggen dat u niet in uw groencontainer krijgt, neem dan snel contact met ons op.
+            </p>
+            <img src="{{url('../../public/images/project3_done.webp')}}" id="project5Img" alt="image project 3 The Box Verhuizingen">
+        </div>
     </section>
 
     <div class="contact" id="contactProjects">
