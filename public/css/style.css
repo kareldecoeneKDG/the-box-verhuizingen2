@@ -1016,6 +1016,7 @@ p {
     margin-right: 40px;
   }
   .projects #project4 {
+    background-color: #EEE;
     display: grid;
     grid-template-columns: auto 60%;
     grid-template-rows: 200px 50px auto;
@@ -1053,7 +1054,7 @@ p {
   .projects #project5 {
     display: grid;
     grid-template-columns: 60% auto;
-    grid-template-rows: 200px 50px auto;
+    grid-template-rows: 150px 50px auto;
     grid-template-areas: "title img" "date img" "p img";
   }
   .projects #project5 #project5Title {
