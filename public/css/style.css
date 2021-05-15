@@ -1045,11 +1045,13 @@ p {
     margin: 100px 10% 30px 192px;
     margin-top: 100px;
     margin-right: 40px;
+    margin-left: 40px;
   }
   .projects #project4 p {
     font-size: 16px;
     margin: 30px 192px 30px 192px;
     margin-right: 192px;
+    margin-left: 40px;
   }
   .projects #project5 {
     display: grid;
