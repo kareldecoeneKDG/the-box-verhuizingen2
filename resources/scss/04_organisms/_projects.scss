@@ -412,6 +412,14 @@
         max-width: 1920px;
         margin-left: auto;
         margin-right: auto;
+
+        #project3 {
+            grid-template-rows: 150px 50px auto;
+        }
+
+        #project4 {
+            grid-template-rows: 150px 50px auto;
+        }
     }
 
     .contact {

@@ -1134,6 +1134,12 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
+  .projects #project3 {
+    grid-template-rows: 150px 50px auto;
+  }
+  .projects #project4 {
+    grid-template-rows: 150px 50px auto;
+  }
 
   .contact {
     max-width: 1920px;
