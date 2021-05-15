@@ -45,7 +45,7 @@
             <p class="projectText" id="project4P">
                 Deze klant benaderde ons via de website voor de afbraak en het afvoeren van een tuinmuur. Enkele dagen later begonnen wij aan deze klus en binnen een paar uur was deze kamer leeg!
             </p>
-            <img src="{{url('../../public/images/project3_done.webp')}}" id="project4Img" alt="image project 3 The Box Verhuizingen">
+            <img src="{{url('../../public/images/wall_done.webp')}}" id="project4Img" alt="image project 3 The Box Verhuizingen">
         </div>
 
         <div class="project" id="project5">
@@ -56,7 +56,7 @@
             <p class="projectText" id="project5P">
                 Naast steen, metaal en hout voeren wij ook tuinafval af. Heeft u in grote hoeveelheden groen-afval liggen dat u niet in uw groencontainer krijgt, neem dan snel contact met ons op.
             </p>
-            <img src="{{url('../../public/images/project3_done.webp')}}" id="project5Img" alt="image project 3 The Box Verhuizingen">
+            <img src="{{url('../../public/images/grasmat_done.webp')}}" id="project5Img" alt="image project 3 The Box Verhuizingen">
         </div>
     </section>
 
