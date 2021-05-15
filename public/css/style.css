@@ -1015,6 +1015,76 @@ p {
     margin: 30px 192px 30px 192px;
     margin-right: 40px;
   }
+  .projects #project4 {
+    display: grid;
+    grid-template-columns: auto 60%;
+    grid-template-rows: 200px 50px auto;
+    grid-template-areas: "img title" "img date" "img p";
+  }
+  .projects #project4 #project4Title {
+    grid-area: title;
+  }
+  .projects #project4 #project4Date {
+    grid-area: date;
+  }
+  .projects #project4 #project4P {
+    grid-area: p;
+  }
+  .projects #project4 #project4Img {
+    grid-area: img;
+    width: 100%;
+    padding-left: 192px;
+    margin-top: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 100px;
+  }
+  .projects #project4 h2 {
+    font-size: 45px;
+    margin: 100px 10% 30px 192px;
+    margin-top: 100px;
+    margin-right: 40px;
+  }
+  .projects #project4 p {
+    font-size: 16px;
+    margin: 30px 192px 30px 192px;
+    margin-right: 40px;
+  }
+  .projects #project5 {
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: 200px 50px auto;
+    grid-template-areas: "title img" "date img" "p img";
+  }
+  .projects #project5 #project5Title {
+    grid-area: title;
+  }
+  .projects #project5 #project5Date {
+    grid-area: date;
+  }
+  .projects #project5 #project5P {
+    grid-area: p;
+  }
+  .projects #project5 #project5Img {
+    grid-area: img;
+    width: 100%;
+    padding-right: 192px;
+    margin-top: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 100px;
+  }
+  .projects #project5 h2 {
+    font-size: 45px;
+    margin: 100px 10% 30px 192px;
+    margin-top: 100px;
+    margin-right: 40px;
+  }
+  .projects #project5 p {
+    font-size: 16px;
+    margin: 30px 192px 30px 192px;
+    margin-right: 40px;
+  }
 
   #contactProjects h2 {
     margin-left: 192px;
