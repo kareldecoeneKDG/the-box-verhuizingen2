@@ -27,7 +27,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="../../public/css/style_test.css">
+    <link rel="stylesheet" href="../../public/css/style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GKY4PPSG98"></script>
