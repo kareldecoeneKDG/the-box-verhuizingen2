@@ -263,6 +263,50 @@
                 margin-right: 40px;
             }
         }
+
+        #project4 {
+            display: grid;
+            grid-template-columns: auto 60%;
+            grid-template-rows: 200px 50px auto;
+            grid-template-areas: "img title"
+                                 "img date"
+                                 "img p";
+
+            #project4Title {
+                grid-area: title;
+            }
+
+            #project4Date {
+                grid-area: date;
+            }
+
+            #project4P {
+                grid-area: p;
+            }
+
+            #project4Img {
+                grid-area: img;
+                width: 100%;
+                padding-left: 192px;
+                margin-top: 100px;
+                padding-top: 0;
+                padding-bottom: 0;
+                margin-bottom: 100px;
+            }
+
+            h2 {
+                font-size: $h2-font-size;
+                margin: $h2-margin;
+                margin-top: 100px;
+                margin-right: 40px;
+            }
+
+            p {
+                font-size: $p-font-size;
+                margin: $p-margin;
+                margin-right: 40px;
+            }
+        }
     }
 
     #contactProjects {
