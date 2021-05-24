@@ -111,5 +111,15 @@
     </div>
 
     <script src="../../public/js/burger.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TSFYHMM2VX"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TSFYHMM2VX');
+</script>
 </body>
 </html>
