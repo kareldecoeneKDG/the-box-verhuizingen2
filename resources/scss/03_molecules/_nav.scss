@@ -342,3 +342,18 @@ nav {
         }
     }
 }
+
+
+/* Desktop */
+@media screen and (min-width: 3840px) {
+    nav {
+        max-width: 1920px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        .nav-links {
+            margin-right: 24%;
+        }
+    }
+}
